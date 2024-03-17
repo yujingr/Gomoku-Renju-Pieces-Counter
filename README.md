@@ -1,5 +1,7 @@
 # 五子棋/连珠练习数棋工具 Gomoku/Renju Pieces Counter
 
+![Screenshot](/ReadMeImages/ScreenShot.png)
+
 ## 中文
 
 这个仓库包含了一个用于练习五子棋/连珠的实践工具，旨在帮助初学者识别并计算游戏中的不同棋子配置，如活四、冲四、活三等。通过使用本工具，玩家可以更好地理解游戏策略和提高自己的下棋技能。
