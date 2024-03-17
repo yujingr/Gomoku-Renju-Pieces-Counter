@@ -6,6 +6,8 @@
 
 这个仓库包含了一个用于练习五子棋/连珠的实践工具，旨在帮助初学者识别并计算游戏中的不同棋子配置，如活四、冲四、活三等。通过使用本工具，玩家可以更好地理解游戏策略和提高自己的下棋技能。
 
+推荐使用方式：用于训练数棋的，仅作为新手提升五子棋棋力的第一步。 比如一步一步跟着已有的练习题/棋面走，观察棋面每次落子的变化. 另外，可以观察每次落子可能形成的棋型变化，学习如何最大化自己的优势，减少对手的优势。
+
 ### 功能介绍
 
 - **棋盘显示与交互**：动态生成 15x15 的棋盘，玩家可以通过点击棋盘上的格子放置棋子。
@@ -28,6 +30,8 @@
 ## English: Gomoku/Renju Pieces Counter
 
 This repository contains a practice tool for Gomoku/Renju, aimed at helping beginners identify and count different configurations of pieces in the game, such as open fours, closed fours, open threes, etc. By using this tool, players can better understand game strategies and improve their playing skills.
+
+Recommended usage: For practicing counting pieces, as a first step for beginners to improve their Gomoku skills. For example, follow the existing practice questions/boards step by step, observe the changes of the board after each move. Also, observe the potential configuration changes after each move, and learn how to maximize your advantage and minimize your opponent's advantage.
 
 ### Features
 
