@@ -1,0 +1,91 @@
+#gameContainer {
+  display: flex;
+}
+
+#mainArea {
+  display: flex;
+  flex-direction: column;
+}
+
+#verticalLabels,
+#horizontalLabels {
+  display: flex;
+  user-select: none; /* Prevents text selection */
+}
+
+#verticalLabels {
+  flex-direction: column;
+  justify-content: start;
+  padding-right: 5px; /* Adjust as necessary to align */
+  padding-top: 38px;
+}
+
+#horizontalLabels {
+  justify-content: start;
+  padding-bottom: 5px; /* Adjust as necessary to align */
+}
+
+.axisLabels div {
+  width: 35px; /* Match cell size */
+  height: 35px; /* Match cell size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+#gameBoard {
+  display: grid;
+  grid-template-columns: repeat(15, 30px);
+  grid-template-rows: repeat(15, 30px);
+  gap: 5px; /* Ensure this matches the gap in your game board */
+}
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piece {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+/* center body */
+body {
+  display: inline-block;
+  padding-left: 100px;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.cell:hover .tooltip {
+  display: block;
+}

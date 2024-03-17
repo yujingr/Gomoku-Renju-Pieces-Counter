@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gomoku/Renju Pieces Counter 连珠/五子棋 数棋工具</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="gameContainer">
+      <div id="verticalLabels" class="axisLabels"></div>
+      <div id="mainArea">
+        <div id="horizontalLabels" class="axisLabels"></div>
+        <div id="gameBoard"></div>
+      </div>
+    </div>
+    <!-- a revert button -->
+    <button id="revertButton"">撤回Revert</button>
+    <!-- reset button -->
+    <button id="resetButton">重置Reset</button>
+    <!-- button that toggles between english and chinese -->
+    <button id="languageButton">中文/English</button>
+    <div style="display: flex; justify-content: space-around; margin-top: 20px">
+      <div
+        id="blackPlayerInfo"
+        style="
+          display: inline-block;
+          border: 1px solid black;
+          padding: 10px;
+          width: 250px;
+        "
+      >
+        <!-- Content for current board info -->
+      </div>
+      <div
+        id="redPlayerInfo"
+        style="
+          display: inline-block;
+          border: 1px solid black;
+          padding: 10px;
+          width: 250px;
+        "
+      >
+        <!-- Content for next piece info -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- add jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </body>
+</html>
